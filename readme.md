@@ -25,7 +25,7 @@ Modern & responsive Landing-page to Bizmone showing up their concept, values and
 
 This project was developed with:
 
-- HTML e CSS
+- HTML & CSS
 - Git & GitHub
 - Figma
 
