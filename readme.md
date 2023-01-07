@@ -1,7 +1,7 @@
 <h1 align="center"> Landing-Page | Bizmone</h1>
 
 <p align="center">
-Exclusive, free event promoted by Rocketseat for teaching WEB technologies.
+Modern & responsive Landing-page to Bizmone showing up their concept, values and product.
 </p>
 
 <p align="center">
