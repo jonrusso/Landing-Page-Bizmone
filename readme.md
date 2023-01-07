@@ -31,7 +31,7 @@ This project was developed with:
 
 ## 💻 Project
 
-This project was conceived with the objective of scheduling the games for the 2022 World Cup. 
+On this project I developed a fully responsive website for a business to show their concept straight-away. 
 
 ## 🔖 Layout
 
