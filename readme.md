@@ -35,10 +35,10 @@ On this project I developed a fully responsive website for a business to show th
 
 ## 🔖 Layout
 
-You can view the project layout through [DESSE LINK](https://www.figma.com/community/file/1169028052212317700). You must have an account at [Figma](https://figma.com) for access.
+You can view the project layout through [LINK HERE](https://www.figma.com/community/file/1195468576891041386). You must have an account at [Figma](https://figma.com) for access.
 
-## :memo: Licence
+## :memo: Project for practical purposes
 
-This project is under the MIT license.
+This brand was totally invented by myself and the entire process either.
 
 ---
