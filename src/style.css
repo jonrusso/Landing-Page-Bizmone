@@ -13,9 +13,47 @@ body {
     "footer footer footer footer";
   grid-template-columns: repeat(4, 1fr);
   background-color: #000000;
-  background-blend-mode: screen;
   font-size: 1.6rem;
   font-weight: 400;
+}
+
+@-webkit-keyframes downarrow {
+  0% {
+    -webkit-transform: translateY(0);
+    opacity: 0.2;
+  }
+  100% {
+    -webkit-transform: translateY(0.6em);
+    opacity: 0.9;
+  }
+}
+
+@media (max-width: 426px) {
+  .hero {
+    max-height: 60vh;
+  }
+
+  .hero h2 {
+    max-width: 100% !important;
+    font-size: 1rem !important;
+    line-height: 1rem;
+    padding-left: 1rem;
+    text-align: center;
+  }
+
+  .hero img {
+    width: 50%;
+    height: 50%;
+  }
+
+  .about .item {
+    text-align: center;
+  }
+
+  .about {
+    grid-template-columns: 1fr !important;
+    grid-template-rows: repeat(4, 1fr);
+  }
 }
 
 .header {
@@ -72,37 +110,59 @@ body {
   animation: downarrow 0.6s infinite alternate ease-in-out;
 }
 
-@-webkit-keyframes downarrow {
-  0% {
-    -webkit-transform: translateY(0);
-    opacity: 0.2;
-  }
-  100% {
-    -webkit-transform: translateY(0.6em);
-    opacity: 0.9;
-  }
-}
-
-@media (max-width: 425px) {
-  .hero {
-    height: 60vh;
-  }
-
-  .hero h2 {
-    width: 390px;
-    height: 94px;
-    line-height: 24px;
-    font-size: 1rem;
-    padding: 20px;
-  }
-
-  .hero img {
-    height: 50%;
-  }
-}
-
 .about {
   grid-area: about;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.about .image {
+  height: 100%;
+  width: 100%;
+}
+
+.about .item {
+  padding: 15%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.about .item h3 {
+  font-weight: 700;
+  font-size: 3.2rem;
+  line-height: 3.8rem;
+  margin-bottom: 4rem;
+  align-self: flex-start;
+}
+
+.about .item p {
+  font-weight: 300;
+  font-size: 2.4rem;
+  line-height: 2.8rem;
+  text-align: justify;
+  margin-bottom: 2rem;
+}
+
+.about .item p span {
+  color: var(--pattern-orange);
+}
+
+.about .image.right {
+  background: url("images/surfboard-2.jpg") center center no-repeat;
+  background-size: cover;
+}
+
+.about .image.left {
+  background: url("../src/images/jeremy-bishop-cmt3JdS5MC4-unsplash.jpg") center
+    center no-repeat;
+  background-size: cover;
+}
+
+h3,
+p {
+  color: aliceblue;
 }
 
 .services {
