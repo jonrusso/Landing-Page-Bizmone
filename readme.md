@@ -1,7 +1,7 @@
 <h1 align="center"> Landing-Page | Bizmone</h1>
 
 <p align="center">
-Exclusive, free event promoted by Rocketseat for teaching WEB technologies.
+Modern & responsive Landing-page to Bizmone showing up their concept, values and product.
 </p>
 
 <p align="center">
@@ -25,13 +25,13 @@ Exclusive, free event promoted by Rocketseat for teaching WEB technologies.
 
 This project was developed with:
 
-- HTML e CSS
+- HTML & CSS
 - Git & GitHub
 - Figma
 
 ## 💻 Project
 
-This project was conceived with the objective of scheduling the games for the 2022 World Cup. 
+On this project I developed a fully responsive website for a business to show their concept straight-away. 
 
 ## 🔖 Layout
 
